@@ -1,4 +1,4 @@
-# Market-Research-and-Brand-Renewal-Strategy
+# Market-Research-and-Growth-Startegy
 Analyzing Market Dynamics and Brand Renewal Strategy for a product with declining market share
 
 Project Summary:
