@@ -1,0 +1,1095 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Medicare_Claims_data_part_1.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="cur_clm_uniq_id" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+            <Field name="bene_mbi_id" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+            <Field name="fac_prvdr_npi_num" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+            <Field name="clm_from_dt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+            <Field name="clm_thru_dt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+            <Field name="prncpl_dgns_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+            <Field name="clm_pmt_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+            <Field name="clm_mdcr_instnl_tot_chrg_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+            <Field name="clm_line_num" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+            <Field name="clm_line_hcpcs_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+            <Field name="clm_line_cvrd_pd_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+            <Field name="clm_val_sqnc_num_dgns" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+            <Field name="clm_dgns_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+            <Field name="clm_val_sqnc_num_prcdr" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+            <Field name="clm_prcdr_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+            <Field name="clm_line_alowd_chrg_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+            <Field name="clm_prvdr_spclty_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_1.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Medicare_Claims_data_part_2.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="cur_clm_uniq_id" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+            <Field name="bene_mbi_id" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+            <Field name="fac_prvdr_npi_num" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+            <Field name="clm_from_dt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+            <Field name="clm_thru_dt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+            <Field name="prncpl_dgns_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+            <Field name="clm_pmt_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+            <Field name="clm_mdcr_instnl_tot_chrg_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+            <Field name="clm_line_num" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+            <Field name="clm_line_hcpcs_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+            <Field name="clm_line_cvrd_pd_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+            <Field name="clm_val_sqnc_num_dgns" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+            <Field name="clm_dgns_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+            <Field name="clm_val_sqnc_num_prcdr" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+            <Field name="clm_prcdr_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+            <Field name="clm_line_alowd_chrg_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+            <Field name="clm_prvdr_spclty_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_2.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Medicare_Claims_data_part_3.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="cur_clm_uniq_id" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+            <Field name="bene_mbi_id" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+            <Field name="fac_prvdr_npi_num" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+            <Field name="clm_from_dt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+            <Field name="clm_thru_dt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+            <Field name="prncpl_dgns_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+            <Field name="clm_pmt_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+            <Field name="clm_mdcr_instnl_tot_chrg_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+            <Field name="clm_line_num" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+            <Field name="clm_line_hcpcs_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+            <Field name="clm_line_cvrd_pd_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+            <Field name="clm_val_sqnc_num_dgns" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+            <Field name="clm_dgns_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+            <Field name="clm_val_sqnc_num_prcdr" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+            <Field name="clm_prcdr_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+            <Field name="clm_line_alowd_chrg_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+            <Field name="clm_prvdr_spclty_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_3.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Medicare_Claims_data_part_4.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="cur_clm_uniq_id" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+            <Field name="bene_mbi_id" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+            <Field name="fac_prvdr_npi_num" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+            <Field name="clm_from_dt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+            <Field name="clm_thru_dt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+            <Field name="prncpl_dgns_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+            <Field name="clm_pmt_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+            <Field name="clm_mdcr_instnl_tot_chrg_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+            <Field name="clm_line_num" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+            <Field name="clm_line_hcpcs_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+            <Field name="clm_line_cvrd_pd_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+            <Field name="clm_val_sqnc_num_dgns" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+            <Field name="clm_dgns_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+            <Field name="clm_val_sqnc_num_prcdr" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+            <Field name="clm_prcdr_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+            <Field name="clm_line_alowd_chrg_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+            <Field name="clm_prvdr_spclty_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_4.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Medicare_Claims_data_part_5.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="cur_clm_uniq_id" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+            <Field name="bene_mbi_id" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+            <Field name="fac_prvdr_npi_num" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+            <Field name="clm_from_dt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+            <Field name="clm_thru_dt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+            <Field name="prncpl_dgns_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+            <Field name="clm_pmt_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+            <Field name="clm_mdcr_instnl_tot_chrg_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+            <Field name="clm_line_num" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+            <Field name="clm_line_hcpcs_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+            <Field name="clm_line_cvrd_pd_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+            <Field name="clm_val_sqnc_num_dgns" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+            <Field name="clm_dgns_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+            <Field name="clm_val_sqnc_num_prcdr" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+            <Field name="clm_prcdr_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+            <Field name="clm_line_alowd_chrg_amt" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+            <Field name="clm_prvdr_spclty_cd" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Medicare_Claims_data_part_5.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="474" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="fac_prvdr_npi_num" selected="True" type="Int64" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="330" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1446" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression><![CDATA[[clm_line_hcpcs_cd] = "J1885" OR
+[clm_line_hcpcs_cd] = "J2250" OR
+[clm_line_hcpcs_cd] = "J2704" OR
+[clm_line_hcpcs_cd] = "J3010" OR
+[Specialty] = "Anesthesiology"
+]]></Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[clm_line_hcpcs_cd] = "J1885" OR
+[clm_line_hcpcs_cd] = "J2250" OR
+[clm_line_hcpc...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="546" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Output_Claims_Merged.xlsx|||Sheet1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <SuppressBlankFile>False</SuppressBlankFile>
+            <OutputOption>RemoveFile</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output_Claims_Merged.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="474" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\HCP_demographics_data.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>HCP_demographics_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="HCP NPI ID" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\HCP_demographics_data.csv" type="V_String" />
+            <Field name="Address" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\HCP_demographics_data.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\HCP_demographics_data.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\HCP_demographics_data.csv" type="V_String" />
+            <Field name="ZIP Code" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\HCP_demographics_data.csv" type="V_String" />
+            <Field name="Specialty" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\HCP_demographics_data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="762" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="fac_prvdr_npi_num" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="HCP NPI ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="666" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="HCP NPI ID" selected="True" type="Int64" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings>
+        <Position x="594" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"cur_clm_uniq_id","bene_mbi_id","fac_prvdr_npi_num","clm_from_dt","clm_thru_dt","prncpl_dgns_cd","clm_pmt_amt","clm_mdcr_instnl_tot_chrg_amt","clm_line_num","clm_line_hcpcs_cd","clm_line_cvrd_pd_amt","clm_val_sqnc_num_dgns","clm_dgns_cd","clm_val_sqnc_num_prcdr","clm_prcdr_cd","clm_line_alowd_chrg_amt","clm_prvdr_spclty_cd"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings>
+        <Position x="570" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"HCP NPI ID","Address","City","State","ZIP Code","Specialty"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="762" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Patient_demographics_data.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Patient_demographics_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Patient_id" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Patient_demographics_data.csv" type="V_String" />
+            <Field name="Age" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Patient_demographics_data.csv" type="V_String" />
+            <Field name="Gender" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Patient_demographics_data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="930" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="bene_mbi_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Patient_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="906" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Zip_to_Territory_Mapping_New.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Zip_to_Territory_Mapping_New.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ZIP Code" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Zip_to_Territory_Mapping_New.csv" type="V_String" />
+            <Field name="Territory Name" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Zip_to_Territory_Mapping_New.csv" type="V_String" />
+            <Field name="Region Name" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Zip_to_Territory_Mapping_New.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1086" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ZIP Code" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ZIP Code" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_ZIP Code" selected="True" rename="Right_ZIP Code" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="1230" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Diagnosis_Code_Mapping.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Diagnosis_Code_Mapping.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Diagnosis Code Market" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Diagnosis_Code_Mapping.csv" type="V_String" />
+            <Field name="Specialty" size="254" source="File: C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Diagnosis_Code_Mapping.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1350" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="diagnosis_code_market" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Diagnosis Code Market" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Specialty" selected="True" rename="Right_Specialty" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1206" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Left([prncpl_dgns_cd], 1)" field="diagnosis_code_market" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[diagnosis_code_market = Left([prncpl_dgns_cd], 1)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1530" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Output_final.xlsx|||Sheet1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <SuppressBlankFile>False</SuppressBlankFile>
+            <OutputOption>RemoveFile</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output_final.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1578" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[clm_line_hcpcs_cd] = "J1885" OR
+[clm_line_hcpcs_cd] = "J2250" OR
+[clm_line_hcpcs_cd] = "J2704" OR
+[clm_line_hcpcs_cd] = "J3010"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[clm_line_hcpcs_cd] = "J1885" OR
+[clm_line_hcpcs_cd] = "J2250" OR
+[clm_line_hcpc...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1686" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="fac_prvdr_npi_num" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1794" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[clm_line_hcpcs_cd] = "J2704" or 
+[clm_line_hcpcs_cd] = "J3010"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[clm_line_hcpcs_cd] = "J2704" or 
+[clm_line_hcpcs_cd] = "J3010"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1914" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Output_Competitor HCPs.xlsx|||Sheet1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <SuppressBlankFile>False</SuppressBlankFile>
+            <OutputOption>RemoveFile</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output_Competitor HCPs.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1674" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="clm_line_hcpcs_cd" action="GroupBy" rename="clm_line_hcpcs_cd" />
+            <SummarizeField field="clm_line_cvrd_pd_amt" action="Max" rename="Max_clm_line_cvrd_pd_amt" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1698" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[clm_line_hcpcs_cd] = "J1885" OR
+[clm_line_hcpcs_cd] = "J2250" OR
+[clm_line_hcpcs_cd] = "J2704" OR
+[clm_line_hcpcs_cd] = "J3010"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[clm_line_hcpcs_cd] = "J1885" OR
+[clm_line_hcpcs_cd] = "J2250" OR
+[clm_line_hcpc...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1986" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\apurv\Desktop\Stevens Material\Sem 2\810 - Health Care Analytics\Final project\Output_file_Anesthesia.xlsx|||Sheet1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <SuppressBlankFile>False</SuppressBlankFile>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Output_file_Anesthesia.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="1794" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="HCP NPI ID" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1890" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression><![CDATA[[Territory Name] = "New York, NY" ]]></Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[[Territory Name] = "New York, NY" ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="18" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="True" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="True" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="19" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Join" />
+      <Destination ToolID="21" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="16" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output26" />
+      <Destination ToolID="16" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output26" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Join" />
+      <Destination ToolID="23" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="25" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Join" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="True" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="True" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="False" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Unique" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="True" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="False" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Unique" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="True" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Alteryx_Healthcare_final_project</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="ff5787ff-0234-48a4-9403-e9831d3cb53f" />
+      <Telemetry>
+        <PreviousWorkflowId value="4f3b9db6-0cbb-4cb7-92af-48263d90f756" />
+        <OriginWorkflowId value="4f3b9db6-0cbb-4cb7-92af-48263d90f756" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
